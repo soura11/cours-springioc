@@ -30,6 +30,8 @@ public class App {
 
 		GreetingService greetingService = (GreetingService) context2.getBean("greetingService");
 		greetingService.sayHello();
+		
+		System.out.println(greetingService.send(2));
 
 		System.out.println("-------------");
 
